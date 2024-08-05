@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+.example{
+    font-weight: bold;
+    color: red; 
+    font-size: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    &:hover{
+        color: blue;
+    }
+}
